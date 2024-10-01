@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Fwrd Axis • MLB Playoffs Bracket</title>
+</head>
+<body>
+    <div class="container">
+        <!-- <h1 class="text-center my-4">MLB Playoffs Bracket</h1> -->
+        <h1 class="text-center my-4"><img src="images/fwrd-axis-full-V2-light.png" alt="MLB Playoffs" class="header img-fluid mx-auto d-block mb-4"></h1>
+        <img src="images/PS.png" alt="MLB Playoffs" class="post img-fluid mx-auto d-block mb-4">
+        <div class="row">
+            <div class="col text-center al-col">
+                <!-- <h2>American League</h2> -->
+                 <h2><img src="images/AL/AL.png" class="league img-fluid mx-auto d-block mb-4"></h2>
+                <div class="bracket">
+                    <!-- <h3>Wild Card</h3> -->
+                    <h3><img src="images/AL/ALWC.png" class="set img-fluid mx-auto d-block mb-4"></h3>
+                    <div class="row">
+                        <% bracket.AL.wildCard.forEach(team => { %>
+                            <div class="col team1">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %></span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                        <% bracket.AL.wildCard2.forEach(team => { %>
+                            <div class="col team2">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %></span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                    </div>
+                    <!-- <h3>Division</h3> -->
+                    <h3><img src="images/AL/ALDS.png" class="set img-fluid mx-auto d-block mb-4"></h3>
+                    <div class="row">
+                        <% bracket.AL.division.forEach(team => { %>
+                            <div class="col team1">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    
+                                    <span class="seed"><%= team.seed %></span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                   
+                                </div>
+                    
+                            </div>
+                        <% }); %>
+                        <% bracket.AL.division2.forEach(team => { %>
+                            <div class="col team2">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    
+                                    <span class="seed"><%= team.seed %></span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                   
+                                </div>
+                    
+                            </div>
+                        <% }); %>
+                    </div>
+                    <!-- <h3>Championship</h3> -->
+                    <h3><img src="images/AL/ALCS.png" class="set img-fluid mx-auto d-block mb-4"></h3>
+                    <div class="row">
+                        <% bracket.AL.champions.forEach(team => { %>
+                            <div class="col team1">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                        <% bracket.AL.champions2.forEach(team => { %>
+                            <div class="col team1">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center nl-col">
+                <!-- <h2>National League</h2> -->
+                <h2><img src="images/NL/NL.png" class="league2 img-fluid mx-auto d-block mb-4"></h2>
+                <div class="bracket">
+                    <!-- <h3>Wild Card</h3> -->
+                     <h3><img src="images/NL/NLWC.png" class="set img-fluid mx-auto d-block mb-4"></h3>
+                    <div class="row">
+                        <% bracket.NL.wildCard3.forEach(team => { %>
+                            <div class="col team3">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                        <% bracket.NL.wildCard4.forEach(team => { %>
+                            <div class="col team4">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                    </div>
+                    <!-- <h3>Division</h3> -->
+                    <h3><img src="images/NL/NLDS.png" class="set img-fluid mx-auto d-block mb-4"></h3>
+                    <div class="row">
+                        <% bracket.NL.division3.forEach(team => { %>
+                            <div class="col team3">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                        <% bracket.NL.division4.forEach(team => { %>
+                            <div class="col team4">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                    </div>
+                    <!-- <h3>Championship</h3> -->
+                    <h3><img src="images/NL/NLCS.png" class="set img-fluid mx-auto d-block mb-4"></h3>
+                    <div class="row">
+                        <% bracket.NL.champions3.forEach(team => { %>
+                            <div class="col team2">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                        <% bracket.NL.champions4.forEach(team => { %>
+                            <div class="col team2">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <h2 class="text-center mt-5">World Series</h2> -->
+        <h2 class="text-center mt-5"><img src="images/WS.png" class="ws img-fluid mx-auto d-block mb-4"></h2>
+        <div class="row justify-content-center wc-contain">
+            <% bracket.worldSeries.contenders.forEach(team => { %>
+                <div class="col text-center">
+                    <div class="team wc-match">
+                        <img class="wc-match" src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                        <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                    </div>
+                </div>
+            <% }); %>
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    <div class="container"></div>
+        <!-- <h1 class="text-center my-4">MLB Playoffs Bracket</h1> -->
+        <h1 class="text-center my-4"><a href="https://fwrdaxis.com" target="_blank"><img src="images/fwrd-axis-full-V2-light.png" alt="MLB Playoffs" class="header img-fluid mx-auto d-block mb-4"></a></h1>
+        <p class="text-center my-4">© 2020 - 2024 Fwrd Axis News | All Rights Reserved.</p>
+        <!-- <img src="images/PS.png" alt="MLB Playoffs" class="post img-fluid mx-auto d-block mb-4"> -->
+        
+    </div>
+        </footer>
+</html>

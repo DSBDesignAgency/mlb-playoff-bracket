@@ -1,0 +1,115 @@
+body {
+    background-color: #cce5fe;
+}
+
+.header {
+    width: 200px;
+}
+
+.post {
+    width: 500px;
+}
+
+.league {
+    width: 200px;
+    padding-top: 50px;
+}
+
+.league2 {
+    width: 200px;
+    padding-bottom: 6px;
+    padding-top: 50px;
+}
+
+.set {
+    width: 100px;
+    padding-top: 50px;
+}
+
+.ws
+{
+    width: 200px;
+}
+
+.games {
+    font-size: 8px;
+background-color: rgb(231, 231, 52);
+padding: 4px;
+}
+
+.seed {
+    color: #fff;
+font-size: 10px;
+background-color: red;
+border-radius: 50%;
+/* padding: 5px; */
+height: 14px;
+width: 14px;
+line-height: 15px;
+text-align: center;
+}
+
+.bracket {
+    margin: 20px 0;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.team img {
+    width: 50px;
+    border: #3061ff 5px solid;
+    border-radius: 50%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.wc-contain {
+    padding-bottom: 40px;
+}
+
+.wc-match img {
+    width: 100px;
+    border: #3061ff 5px solid;
+    border-radius: 50%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.al-col {
+    background-color: #fff;
+}
+
+.nl-col {
+    background-color: #ffc4cb;
+}
+
+.team1, .team3 {
+    background-color: rgb(191, 191, 191);
+    
+}
+
+
+.team2, .team4 {
+    background-color: rgb(110, 110, 110);
+}
+
+.division-w {
+    background-color: aquamarine;
+}
+
+.footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .team img {
+        width: 30px;
+    }
+}
