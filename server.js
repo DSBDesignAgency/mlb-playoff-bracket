@@ -21,8 +21,8 @@ const bracketData = {
        
 
         wildCard2: [
-            { team: '0-0', logo: 'images/AL/Royals.png', seed: 5 },
-            { team: '0-0', logo: 'images/AL/Orioles.png', seed: 4 },
+            { team: '1-0', logo: 'images/AL/Royals.png', seed: 5 },
+            { team: '0-1', logo: 'images/AL/Orioles.png', seed: 4 },
         ],
         division: [
             { team: '0-0', logo: 'images/Default.png', seed: null },
