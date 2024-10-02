@@ -15,8 +15,8 @@ app.set('view engine', 'ejs');
 const bracketData = {
     AL: {
         wildCard: [
-            { team: '1-0', logo: 'images/AL/Tigers.png', seed: 6 },
-            { team: '0-1', logo: 'images/AL/Astros.png', seed: 3 },
+            { team: '2-0', logo: 'images/AL/Tigers.png', seed: 6 },
+            { team: '0-2', logo: 'images/AL/Astros-e.png', seed: 3 },
         ],
        
 
@@ -25,7 +25,7 @@ const bracketData = {
             { team: '0-1', logo: 'images/AL/Orioles.png', seed: 4 },
         ],
         division: [
-            { team: '0-0', logo: 'images/Default.png', seed: null },
+            { team: '0-0', logo: 'images/AL/Tigers.png', seed: null },
             { team: '0-0', logo: 'images/AL/Guardians.png', seed: 2 },
         ],
         division2: [
