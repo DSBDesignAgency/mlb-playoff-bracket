@@ -5,13 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Fwrd Axis • MLB Playoffs Bracket</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="apple-touch-icon image_src" href="apple-touch-icon.png">
+   <!-- Primary Meta Tags -->
+<title>Fwrd Axis • MLB Playoffs Bracket</title>
+<meta name="title" content="Fwrd Axis • MLB Playoffs Bracket" />
+<meta name="description" content="Realtime MLB Postseason Standings and Stats, brought to you by MLBShop.com." />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://mlb.fwrdaxis.com/" />
+<meta property="og:title" content="Fwrd Axis • MLB Playoffs Bracket" />
+<meta property="og:description" content="Realtime MLB Postseason Standings and Stats, brought to you by MLBShop.com." />
+<meta property="og:image" content="images/FA-img2.png" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://mlb.fwrdaxis.com/" />
+<meta property="twitter:title" content="Fwrd Axis • MLB Playoffs Bracket" />
+<meta property="twitter:description" content="Realtime MLB Postseason Standings and Stats, brought to you by MLBShop.com." />
+<meta property="twitter:image" content="images/FA-img2.png" />
+
+<!-- Meta Tags Generated with https://metatags.io -->
 </head>
 <body>
     <div class="container">
         <!-- <h1 class="text-center my-4">MLB Playoffs Bracket</h1> -->
+         
         <h1 class="text-center my-4"><img src="images/fwrd-axis-full-V2-light.png" alt="MLB Playoffs" class="header img-fluid mx-auto d-block mb-4"></h1>
         <img src="images/PS.png" alt="MLB Playoffs" class="post img-fluid mx-auto d-block mb-4">
+        <div class="ps-section">
         <div class="row">
             <div class="col text-center al-col">
                 <!-- <h2>American League</h2> -->
@@ -151,13 +174,22 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
         <!-- <h2 class="text-center mt-5">World Series</h2> -->
-    
+    <div class="ws-section">
         <h2 class="text-center mt-5"><img src="images/WS.png" class="ws img-fluid mx-auto d-block mb-4"></h2>
         <div class="row justify-content-center wc-contain">
             <% bracket.worldSeries.contenders.forEach(team => { %>
-                <div class="col text-center">
+                <div class="col text-center team1">
+                    <div class="team wc-match">
+                        <img class="wc-match" src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                        <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                    </div>
+                </div>
+            <% }); %>
+            <% bracket.worldSeries.contenders2.forEach(team => { %>
+                <div class="col text-center team2">
                     <div class="team wc-match">
                         <img class="wc-match" src="<%= team.logo %>" alt="<%= team.team %> Logo">
                         <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
@@ -165,8 +197,91 @@
                 </div>
             <% }); %>
         </div>
+        </div>
+    </div>
+    
+    <div class="container mt-5 mlb-shop">
+        <h2 class="text-center mb-4"><img src="images/mlbshop.svg" class="img-fluid mlbshop"></h2>
+        <h2 class="text-center mb-4 mlb-shop-text">Postseason Exclusives</h2>
+        <div class="row">
+            <!-- Row 1 -->
+            <div class="col-md-2 mb-4">
+                <a href="https://mlbshop.ue7a.net/c/5751618/615943/9676" target="_blank">
+                    <img src="images/AL/Yankees.png" class="img-fluid" alt="Yankees Team Gear">
+                </a>
+            </div>
+            <div class="col-md-2 mb-4">
+                <a href="https://mlbshop.ue7a.net/c/5751618/615932/9676" target="_blank">
+                    <img src="images/AL/Guardians.png" class="img-fluid" alt="Guardians Team Gear">
+                </a>
+            </div>
+            <div class="col-md-2 mb-4">
+                <a href="https://mlbshop.ue7a.net/c/5751618/615935/9676" target="_blank">
+                    <img src="images/AL/Astros.png" class="img-fluid" alt="Astros Team Gear">
+                </a>
+            </div>
+            <div class="col-md-2 mb-4">
+                <a href="https://mlbshop.ue7a.net/c/5751618/615923/9676" target="_blank">
+                    <img src="images/AL/Orioles.png" class="img-fluid" alt="Orioles Team Gear">
+                </a>
+            </div>
+            <div class="col-md-2 mb-4">
+                <a href="https://mlbshop.ue7a.net/c/5751618/615936/9676" target="_blank">
+                    <img src="images/AL/Royals.png" class="img-fluid" alt="Royals Team Gear">
+                </a>
+            </div>
+            <div class="col-md-2 mb-4">
+                <a href="https://mlbshop.ue7a.net/c/5751618/615934/9676" target="_blank">
+                    <img src="images/AL/Tigers.png" class="img-fluid" alt="Tigers Team Gear">
+                </a>
+            </div>
+        </div>
+    
+        <div class="row">
+            <!-- Row 2 -->
+            <div class="col-md-2 mb-4">
+                <a href="https://mlbshop.ue7a.net/c/5751618/615938/9676" target="_blank">
+                    <img src="images/NL/Dodgers.png" class="img-fluid" alt="Dodgers Team Gear">
+                </a>
+            </div>
+            <div class="col-md-2 mb-4">
+                <a href="https://mlbshop.ue7a.net/c/5751618/615946/9676" target="_blank">
+                    <img src="images/NL/Phillies.png" class="img-fluid" alt="Phillies Team Gear">
+                </a>
+            </div>
+            <div class="col-md-2 mb-4">
+                <a href="https://mlbshop.ue7a.net/c/5751618/615940/9676" target="_blank">
+                    <img src="images/NL/Brewers.png" class="img-fluid" alt="Brewers Team Gear">
+                </a>
+            </div>
+            <div class="col-md-2 mb-4">
+                <a href="https://mlbshop.ue7a.net/c/5751618/615948/9676" target="_blank">
+                    <img src="images/NL/Padres.png" class="img-fluid" alt="Padres Team Gear">
+                </a>
+            </div>
+            <div class="col-md-2 mb-4">
+                <a href="https://mlbshop.ue7a.net/c/5751618/615922/9676" target="_blank">
+                    <img src="images/NL/Braves.png" class="img-fluid" alt="Braves Team Gear">
+                </a>
+            </div>
+            <div class="col-md-2 mb-4">
+                <a href="https://mlbshop.ue7a.net/c/5751618/615942/9676" target="_blank">
+                    <img src="images/NL/Mets.png" class="img-fluid" alt="Mets Team Gear">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     </div>
 </body>
+
+<div class="container mt-5 mlb-shop">
+    <center><a class="btn btn-primary text-center" href="https://fwrdaxis.com/sections/sports/mlb/" target="_blank">Back to MLB News</a></center>
+</div>
 <footer class="footer">
     <div class="container"></div>
         <!-- <h1 class="text-center my-4">MLB Playoffs Bracket</h1> -->

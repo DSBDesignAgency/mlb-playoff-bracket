@@ -33,20 +33,20 @@ body {
 
 .games {
     font-size: 8px;
-background-color: rgb(231, 231, 52);
-padding: 4px;
+    background-color: rgb(231, 231, 52);
+    padding: 4px;
 }
 
 .seed {
     color: #fff;
-font-size: 10px;
-background-color: red;
-border-radius: 50%;
-/* padding: 5px; */
-height: 14px;
-width: 14px;
-line-height: 15px;
-text-align: center;
+    font-size: 10px;
+    background-color: red;
+    border-radius: 50%;
+    /* padding: 5px; */
+    height: 14px;
+    width: 14px;
+    line-height: 15px;
+    text-align: center;
 }
 
 .bracket {
@@ -102,6 +102,37 @@ text-align: center;
     background-color: aquamarine;
 }
 
+.ws-section {
+    background-color: rgb(224, 255, 254);
+    padding: 10px;
+    border: #d3d3d3 solid 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.mlbshop {
+    width: 350px;
+        
+}
+
+.mlb-shop {
+    background-color: #3061ff;
+    padding: 40px;
+   
+}
+
+.mlb-shop-text {
+    color: #fff;
+    margin-top: -15px;
+}
+
+.btn {
+    font-size: 16px; /* Change button text size */
+    align-items: center;
+    background-color: #292929;
+    border-color: #acd4ff;
+}
+
 .footer {
     text-align: center;
     padding: 25px;
@@ -110,6 +141,6 @@ text-align: center;
 
 @media (max-width: 768px) {
     .team img {
-        width: 30px;
+        width: 40px;
     }
 }

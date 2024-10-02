@@ -46,8 +46,8 @@ const bracketData = {
         ],
 
         wildCard4: [
-            { team: '0-0', logo: 'images/NL/Braves.png', seed: 5 },
-            { team: '0-0', logo: 'images/NL/Padres.png', seed: 4 },
+            { team: '0-1', logo: 'images/NL/Braves.png', seed: 5 },
+            { team: '1-0', logo: 'images/NL/Padres.png', seed: 4 },
         ],
 
         division3: [
@@ -68,6 +68,8 @@ const bracketData = {
     worldSeries: {
         contenders: [
             { team: '0-0', logo: 'images/Default.png' },
+        ],
+        contenders2: [
             { team: '0-0', logo: 'images/Default.png' },
         ],
     },
