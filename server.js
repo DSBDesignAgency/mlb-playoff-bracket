@@ -41,8 +41,8 @@ const bracketData = {
     },
     NL: {
         wildCard3: [
-            { team: '0-0', logo: 'images/NL/Mets.png', seed: 6 },
-            { team: '0-0', logo: 'images/NL/Brewers.png', seed: 3 },
+            { team: '1-0', logo: 'images/NL/Mets.png', seed: 6 },
+            { team: '0-1', logo: 'images/NL/Brewers.png', seed: 3 },
         ],
 
         wildCard4: [
