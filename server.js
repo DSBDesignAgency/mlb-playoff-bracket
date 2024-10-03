@@ -16,14 +16,20 @@ const bracketData = {
     AL: {
         wildCard: [
             { team: '2-0', logo: 'images/AL/Tigers.png', seed: 6 },
+
+        ],
+        wildCardA: [
             { team: '0-2', logo: 'images/AL/Astros-e.png', seed: 3 },
         ],
        
 
         wildCard2: [
             { team: '2-0', logo: 'images/AL/Royals.png', seed: 5 },
+        ],
+        wildCard2A: [
             { team: '0-2', logo: 'images/AL/Orioles-e.png', seed: 4 },
         ],
+
         division: [
             { team: '0-0', logo: 'images/AL/Tigers.png', seed: null },
             { team: '0-0', logo: 'images/AL/Guardians.png', seed: 2 },
@@ -41,13 +47,17 @@ const bracketData = {
     },
     NL: {
         wildCard3: [
-            { team: '1-0', logo: 'images/NL/Mets.png', seed: 6 },
-            { team: '0-1', logo: 'images/NL/Brewers.png', seed: 3 },
+            { team: '1-1', logo: 'images/NL/Mets.png', seed: 6 },
+        ],
+        wildCard3A: [
+            { team: '1-1', logo: 'images/NL/Brewers.png', seed: 3 },
         ],
 
         wildCard4: [
-            { team: '0-1', logo: 'images/NL/Braves.png', seed: 5 },
-            { team: '1-0', logo: 'images/NL/Padres.png', seed: 4 },
+            { team: '0-2', logo: 'images/NL/Braves-e.png', seed: 5 },
+        ],
+        wildCard4A: [
+            { team: '2-0', logo: 'images/NL/Padres.png', seed: 4 },
         ],
 
         division3: [
@@ -55,7 +65,7 @@ const bracketData = {
             { team: '0-0', logo: 'images/NL/Phillies.png', seed: 2 },
         ],
         division4: [
-            { team: '0-0', logo: 'images/Default.png', seed: null },
+            { team: '0-0', logo: 'images/NL/Padres.png', seed: null },
             { team: '0-0', logo: 'images/NL/Dodgers.png', seed: 1 },
         ],
         champions3: [

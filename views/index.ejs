@@ -44,6 +44,14 @@
                     <h3><img src="images/AL/ALWC.png" class="set img-fluid mx-auto d-block mb-4"></h3>
                     <div class="row">
                         <% bracket.AL.wildCard.forEach(team => { %>
+                            <div class="col team1 team-w">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %></span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                        <% bracket.AL.wildCardA.forEach(team => { %>
                             <div class="col team1">
                                 <div class="team">
                                     <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
@@ -52,6 +60,14 @@
                             </div>
                         <% }); %>
                         <% bracket.AL.wildCard2.forEach(team => { %>
+                            <div class="col  team-w-2">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %></span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                        <% bracket.AL.wildCard2A.forEach(team => { %>
                             <div class="col team2">
                                 <div class="team">
                                     <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
@@ -123,8 +139,24 @@
                                 </div>
                             </div>
                         <% }); %>
+                        <% bracket.NL.wildCard3A.forEach(team => { %>
+                            <div class="col team3">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
                         <% bracket.NL.wildCard4.forEach(team => { %>
                             <div class="col team4">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                        <% bracket.NL.wildCard4A.forEach(team => { %>
+                            <div class="col  team-w-3">
                                 <div class="team">
                                     <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
                                     <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
@@ -205,32 +237,32 @@
         <h2 class="text-center mb-4 mlb-shop-text">Postseason Exclusives</h2>
         <div class="row">
             <!-- Row 1 -->
-            <div class="col-md-2 mb-4">
+            <div class="col-md-2 col-sm-4 mb-4">
                 <a href="https://mlbshop.ue7a.net/c/5751618/615943/9676" target="_blank">
                     <img src="images/AL/Yankees.png" class="img-fluid" alt="Yankees Team Gear">
                 </a>
             </div>
-            <div class="col-md-2 mb-4">
+            <div class="col-md-2 col-sm-4 mb-4">
                 <a href="https://mlbshop.ue7a.net/c/5751618/615932/9676" target="_blank">
                     <img src="images/AL/Guardians.png" class="img-fluid" alt="Guardians Team Gear">
                 </a>
             </div>
-            <div class="col-md-2 mb-4">
+            <div class="col-md-2 col-sm-4 mb-4">
                 <a href="https://mlbshop.ue7a.net/c/5751618/615935/9676" target="_blank">
                     <img src="images/AL/Astros.png" class="img-fluid" alt="Astros Team Gear">
                 </a>
             </div>
-            <div class="col-md-2 mb-4">
+            <div class="col-md-2 col-sm-4 mb-4">
                 <a href="https://mlbshop.ue7a.net/c/5751618/615923/9676" target="_blank">
                     <img src="images/AL/Orioles.png" class="img-fluid" alt="Orioles Team Gear">
                 </a>
             </div>
-            <div class="col-md-2 mb-4">
+            <div class="col-md-2 col-sm-4 mb-4">
                 <a href="https://mlbshop.ue7a.net/c/5751618/615936/9676" target="_blank">
                     <img src="images/AL/Royals.png" class="img-fluid" alt="Royals Team Gear">
                 </a>
             </div>
-            <div class="col-md-2 mb-4">
+            <div class="col-md-2 col-sm-4 mb-4">
                 <a href="https://mlbshop.ue7a.net/c/5751618/615934/9676" target="_blank">
                     <img src="images/AL/Tigers.png" class="img-fluid" alt="Tigers Team Gear">
                 </a>
@@ -239,32 +271,32 @@
     
         <div class="row">
             <!-- Row 2 -->
-            <div class="col-md-2 mb-4">
+            <div class="col-md-2 col-sm-4 mb-4">
                 <a href="https://mlbshop.ue7a.net/c/5751618/615938/9676" target="_blank">
                     <img src="images/NL/Dodgers.png" class="img-fluid" alt="Dodgers Team Gear">
                 </a>
             </div>
-            <div class="col-md-2 mb-4">
+            <div class="col-md-2 col-sm-4 mb-4">
                 <a href="https://mlbshop.ue7a.net/c/5751618/615946/9676" target="_blank">
                     <img src="images/NL/Phillies.png" class="img-fluid" alt="Phillies Team Gear">
                 </a>
             </div>
-            <div class="col-md-2 mb-4">
+            <div class="col-md-2 col-sm-4 mb-4">
                 <a href="https://mlbshop.ue7a.net/c/5751618/615940/9676" target="_blank">
                     <img src="images/NL/Brewers.png" class="img-fluid" alt="Brewers Team Gear">
                 </a>
             </div>
-            <div class="col-md-2 mb-4">
+            <div class="col-md-2 col-sm-4 mb-4">
                 <a href="https://mlbshop.ue7a.net/c/5751618/615948/9676" target="_blank">
                     <img src="images/NL/Padres.png" class="img-fluid" alt="Padres Team Gear">
                 </a>
             </div>
-            <div class="col-md-2 mb-4">
+            <div class="col-md-2 col-sm-4 mb-4">
                 <a href="https://mlbshop.ue7a.net/c/5751618/615922/9676" target="_blank">
                     <img src="images/NL/Braves.png" class="img-fluid" alt="Braves Team Gear">
                 </a>
             </div>
-            <div class="col-md-2 mb-4">
+            <div class="col-md-2 col-sm-4 mb-4">
                 <a href="https://mlbshop.ue7a.net/c/5751618/615942/9676" target="_blank">
                     <img src="images/NL/Mets.png" class="img-fluid" alt="Mets Team Gear">
                 </a>

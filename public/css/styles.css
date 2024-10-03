@@ -93,6 +93,10 @@ body {
     
 }
 
+.team-w, .team-w-2, .team-w-3, .team-w-4 {
+    background-color: rgb(143, 255, 164);
+}
+
 
 .team2, .team4 {
     background-color: rgb(110, 110, 110);
