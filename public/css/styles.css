@@ -68,7 +68,7 @@ body {
     margin-right: 10px;
 }
 
-.team .w img {
+.team, .w img {
     border: #00aa03 5px solid;
 }
 
