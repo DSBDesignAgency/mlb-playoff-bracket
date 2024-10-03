@@ -32,8 +32,8 @@ body {
 }
 
 .games {
-    font-size: 8px;
-    background-color: rgb(231, 231, 52);
+    font-size: 7.6px;
+    background-color: var(--yellow);
     padding: 4px;
 }
 
