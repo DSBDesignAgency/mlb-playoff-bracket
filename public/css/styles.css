@@ -68,6 +68,10 @@ body {
     margin-right: 10px;
 }
 
+.w {
+    border: #00aa03 5px solid;
+}
+
 .wc-contain {
     padding-bottom: 40px;
 }
