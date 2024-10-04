@@ -47,10 +47,10 @@ const bracketData = {
     },
     NL: {
         wildCard3: [
-            { team: '1-1', logo: 'images/NL/Mets.png', seed: 6 },
+            { team: '2-1', logo: 'images/NL/Mets.png', seed: 6 },
         ],
         wildCard3A: [
-            { team: '1-1', logo: 'images/NL/Brewers.png', seed: 3 },
+            { team: '1-2', logo: 'images/NL/Brewers-e.png', seed: 3 },
         ],
 
         wildCard4: [
@@ -61,7 +61,7 @@ const bracketData = {
         ],
 
         division3: [
-            { team: '0-0', logo: 'images/Default.png', seed: null },
+            { team: '0-0', logo: 'images/NL/Mets.png', seed: null },
             { team: '0-0', logo: 'images/NL/Phillies.png', seed: 2 },
         ],
         division4: [
