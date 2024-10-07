@@ -31,11 +31,11 @@ const bracketData = {
         ],
 
         division: [
-            { team: '0-1', logo: 'images/AL/Tigers.png', seed: null },
+            { team: '0-1', logo: 'images/AL/Tigers.png', seed: 6 },
             { team: '1-0', logo: 'images/AL/Guardians.png', seed: 2 },
         ],
         division2: [
-            { team: '0-1', logo: 'images/AL/Royals.png', seed: null },
+            { team: '0-1', logo: 'images/AL/Royals.png', seed: 5 },
             { team: '1-0', logo: 'images/AL/Yankees.png', seed: 1 },
         ],
         champions: [
@@ -61,11 +61,11 @@ const bracketData = {
         ],
 
         division3: [
-            { team: '1-1', logo: 'images/NL/Mets.png', seed: null },
+            { team: '1-1', logo: 'images/NL/Mets.png', seed: 6 },
             { team: '1-1', logo: 'images/NL/Phillies.png', seed: 2 },
         ],
         division4: [
-            { team: '1-1', logo: 'images/NL/Padres.png', seed: null },
+            { team: '1-1', logo: 'images/NL/Padres.png', seed: 4 },
             { team: '1-1', logo: 'images/NL/Dodgers.png', seed: 1 },
         ],
         champions3: [
