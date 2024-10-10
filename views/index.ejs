@@ -90,7 +90,29 @@
                     
                             </div>
                         <% }); %>
+                        <% bracket.AL.divisionA.forEach(team => { %>
+                            <div class="col team1">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    
+                                    <span class="seed"><%= team.seed %></span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                   
+                                </div>
+                    
+                            </div>
+                        <% }); %>
                         <% bracket.AL.division2.forEach(team => { %>
+                            <div class="col team2">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    
+                                    <span class="seed"><%= team.seed %></span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                   
+                                </div>
+                    
+                            </div>
+                        <% }); %>
+                        <% bracket.AL.division2A.forEach(team => { %>
                             <div class="col team2">
                                 <div class="team">
                                     <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
@@ -168,6 +190,14 @@
                     <h3><img src="images/NL/NLDS.png" class="set img-fluid mx-auto d-block mb-4"></h3>
                     <div class="row">
                         <% bracket.NL.division3.forEach(team => { %>
+                            <div class="col team-w-3">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                        <% bracket.NL.division3A.forEach(team => { %>
                             <div class="col team3">
                                 <div class="team">
                                     <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
@@ -176,6 +206,14 @@
                             </div>
                         <% }); %>
                         <% bracket.NL.division4.forEach(team => { %>
+                            <div class="col team4">
+                                <div class="team">
+                                    <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
+                                    <span class="seed"><%= team.seed %> </span> &nbsp;•&nbsp; <span class="games"><%= team.team %></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                        <% bracket.NL.division4A.forEach(team => { %>
                             <div class="col team4">
                                 <div class="team">
                                     <img src="<%= team.logo %>" alt="<%= team.team %> Logo">
