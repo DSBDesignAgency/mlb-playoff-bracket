@@ -71,16 +71,16 @@ const bracketData = {
             { team: '1-3', logo: 'images/NL/Phillies-e.png', seed: 2 },
         ],
         division4: [
-            { team: '2-2', logo: 'images/NL/Padres.png', seed: 4 },
+            { team: '2-3', logo: 'images/NL/Padres-e.png', seed: 4 },
         ],
         division4A: [
-            { team: '2-2', logo: 'images/NL/Dodgers.png', seed: 1 },
+            { team: '3-2', logo: 'images/NL/Dodgers.png', seed: 1 },
         ],
         champions3: [
             { team: '0-0', logo: 'images/NL/Mets.png', seed: 6 },
         ],
         champions4: [
-            { team: '0-0', logo: 'images/Default.png', seed: null },
+            { team: '0-0', logo: 'images/NL/Dodgers.png', seed: 1 },
         ],
     },
     worldSeries: {
