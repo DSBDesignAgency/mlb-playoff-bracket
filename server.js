@@ -31,7 +31,7 @@ const bracketData = {
         ],
 
         division: [
-            { team: '2-3', logo: 'images/AL/Tigers.png', seed: 6 },
+            { team: '2-3', logo: 'images/AL/Tigers-e.png', seed: 6 },
         ],
         divisionA: [
             { team: '3-2', logo: 'images/AL/Guardians.png', seed: 2 },
