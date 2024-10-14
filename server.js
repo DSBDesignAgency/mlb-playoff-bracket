@@ -31,10 +31,10 @@ const bracketData = {
         ],
 
         division: [
-            { team: '2-2', logo: 'images/AL/Tigers.png', seed: 6 },
+            { team: '2-3', logo: 'images/AL/Tigers.png', seed: 6 },
         ],
         divisionA: [
-            { team: '2-2', logo: 'images/AL/Guardians.png', seed: 2 },
+            { team: '3-2', logo: 'images/AL/Guardians.png', seed: 2 },
         ],
         division2: [
             { team: '1-3', logo: 'images/AL/Royals-e.png', seed: 5 },
@@ -43,7 +43,7 @@ const bracketData = {
             { team: '3-1', logo: 'images/AL/Yankees.png', seed: 1 },
         ],
         champions: [
-            { team: '0-0', logo: 'images/Default.png', seed: null },
+            { team: '0-0', logo: 'images/AL/Guardians.png', seed: 2 },
         ],
         champions2: [
             { team: '0-0', logo: 'images/AL/Yankees.png', seed: 1 },
