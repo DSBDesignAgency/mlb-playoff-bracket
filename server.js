@@ -85,7 +85,7 @@ const bracketData = {
     },
     worldSeries: {
         contenders: [
-            { team: '0-0', logo: 'images/AL/Yankees.png' },
+            { team: '0-0', logo: 'images/AL/Yankees.png', seed: 1 },
         ],
         contenders2: [
             { team: '0-0', logo: 'images/Default.png' },
